@@ -49,7 +49,7 @@ $data = $master->get_data(isset($_GET['id']) ? $_GET['id'] : '');
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger bg-gradient">
         <div class="container">
             <a class="navbar-brand" href="./">PHP - JSON CRUD</a>
             <div>
@@ -99,7 +99,7 @@ $data = $master->get_data(isset($_GET['id']) ? $_GET['id'] : '');
                             <div class="d-flex justify-content-between">
                                 <div class="card-title col-auto flex-shrink-1 flex-grow-1">CRUD PHP con datos en JSON</div>
                                 <div class="col-atuo">
-                                    <button class="btn btn-primary btn-sm btn-flat" id="add"><i class="fa fa-plus-square"></i> Agregar Usuario</button>
+                                    <button class="btn btn-danger btn-sm btn-flat" id="add"><i class="fa fa-plus-square"></i> Agregar Usuario</button>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ $data = $master->get_data(isset($_GET['id']) ? $_GET['id'] : '');
                             </div>
                         </div>
                         <div class="card-footer text-center">
-                            <button class="btn btn-primary rounded-0" form="member-form"><i class="fa-solid fa-save"></i> Guardar Usuario</button>
+                            <button class="btn btn-danger rounded-0" form="member-form"><i class="fa-solid fa-save"></i> Guardar Usuario</button>
                             <a class="btn btn-light border rounded-0" href="./"><i class="fa-solid fa-times"></i> Cancelar</a>
                         </div>
                     </div>

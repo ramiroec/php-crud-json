@@ -30,7 +30,7 @@ $json_data = $master->get_all_data();
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger bg-gradient">
         <div class="container">
             <a class="navbar-brand" href="./">CRUD PHP con datos en JSON</a>
             <div>
@@ -79,7 +79,7 @@ $json_data = $master->get_all_data();
                             <div class="d-flex justify-content-between">
                                 <div class="card-title col-auto flex-shrink-1 flex-grow-1">CRUD PHP con datos en JSON</div>
                                 <div class="col-atuo">
-                                    <a class="btn btn-primary btn-sm btn-flat" href="member_form.php"><i class="fa fa-plus-square"></i> Agregar Usuario</a>
+                                    <a class="btn btn-danger btn-sm btn-flat" href="member_form.php"><i class="fa fa-plus-square"></i> Agregar Usuario</a>
                                 </div>
                             </div>
                         </div>
